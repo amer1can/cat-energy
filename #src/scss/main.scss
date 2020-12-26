@@ -1,0 +1,32 @@
+.wrapper--main {
+    height: 696px;
+    background-image: url('../img/main/index-background-desktop.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-screen {
+    position: relative;
+    &__body {
+        width: 415px;
+    }
+    &__body--large {    
+        margin: 110px 0px 0px 80px;
+    }
+    &__title {}
+    &__subtitle {
+        margin: 40px 0px 52px 0px;
+    }
+    &__btn {
+        background-color: #68B738;
+    }
+    &__btn:hover {
+        background-color: #5EAA2F;
+    }
+    &__img {
+        position: absolute;
+        top: -82px;
+        right: 220px;
+    }
+}
